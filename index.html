@@ -124,15 +124,15 @@
       'no :('
     ];
 
-    // NEW: Sad/Begging GIFs for each NO click
+    // N
     const noGifs = [
       "https://media.giphy.com/media/gKHGnB1ml0moQdjhEJ/giphy.gif",
       "https://media.giphy.com/media/901mxGLGQN2PyCQpoc/giphy.gif",
       "https://media.giphy.com/media/fXnRObM8Q0RkOmR5nf/giphy.gif",
       "https://media.giphy.com/media/aWMJvA76tNnBR9gkpT/giphy.gif",
       "https://media.giphy.com/media/um2kBnfo55iW4ZH1Fa/giphy.gif",
-	  "https://media.giphy.com/media/dCwNmR9BBOzKpiBQOs/giphy.gif",
-      "https://media.giphy.com/media/ij8AeeqXKFZm0/giphy.gif"
+	  "https://media.giphy.com/media/ij8AeeqXKFZm0/giphy.gif",
+	  "https://media.giphy.com/media/dCwNmR9BBOzKpiBQOs/giphy.gif"
     ];
 
     let noClicks = 0;
@@ -149,7 +149,7 @@
 
       noClicks++;
 
-      // NEW: Change GIF on each NO click
+      // N
       const gifIndex = (noClicks - 1) % noGifs.length;
       gif.src = noGifs[gifIndex];
 
@@ -191,4 +191,5 @@
   </script>
 </body>
 </html>
+
 
